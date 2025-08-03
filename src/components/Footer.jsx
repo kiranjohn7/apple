@@ -183,7 +183,7 @@ export default function Footer() {
       </div>
 
       <div className="hidden lg:block max-w-7xl mx-auto px-6 py-10 ">
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-10 gap-8">
+        <div className="grid text-start grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-10 gap-8">
           {columns.map((col) => (
             <div key={col.title}>
               <h3 className="font-semibold mb-2">{col.title}</h3>
